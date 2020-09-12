@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42" started-at="2020-07-24T15:20:13Z" finished-at="2020-07-24T15:20:13Z">
+    <groups>
+      <group name="password">
+        <method signature="Ex1.initializePassword()[pri:0, instance:com.TestNG.Ex1@7c16905e]" name="initializePassword" class="com.TestNG.Ex1"/>
+      </group> <!-- password -->
+      <group name="name">
+        <method signature="Ex1.initializeName()[pri:0, instance:com.TestNG.Ex1@7c16905e]" name="initializeName" class="com.TestNG.Ex1"/>
+      </group> <!-- name -->
+    </groups>
+    <test name="Default test" duration-ms="42" started-at="2020-07-24T15:20:13Z" finished-at="2020-07-24T15:20:13Z">
+      <class name="com.TestNG.Ex1">
+        <test-method status="PASS" signature="initializeName()[pri:0, instance:com.TestNG.Ex1@7c16905e]" name="initializeName" duration-ms="14" started-at="2020-07-24T20:50:13Z" finished-at="2020-07-24T20:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeName -->
+        <test-method status="PASS" signature="initializePassword()[pri:0, instance:com.TestNG.Ex1@7c16905e]" name="initializePassword" duration-ms="6" started-at="2020-07-24T20:50:13Z" finished-at="2020-07-24T20:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePassword -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.TestNG.Ex1@7c16905e]" name="signin" duration-ms="1" depends-on-groups="password, name" started-at="2020-07-24T20:50:13Z" finished-at="2020-07-24T20:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+      </class> <!-- com.TestNG.Ex1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
